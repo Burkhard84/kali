@@ -36,7 +36,7 @@ print(r"""**********************************************************************
     IP ou bloco CIDR: digite um número IP (200.200.200.200) ou um bloco CIDR (200.200/16).
                                                                                
                               abrir o programa : python3 whois.py                                                  
-                             exemplo de uso: Digite Domínio ou IP: exemplo.com                              
+                             exemplo de uso: Digite Domínio ou IP: google.com.br                             
                              exemplo de uso: Digite Domínio ou IP: 127.0.0.1                        """)
 print("\n*********************************************************************************************")
 
