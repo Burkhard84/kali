@@ -41,7 +41,7 @@ print(r"""**********************************************************************
 print("\n*********************************************************************************************")
 
 import socket
-
+import time
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(('200.160.2.3', 43))
 url = input("                             Digite Domínio ou IP: ")
@@ -54,4 +54,5 @@ while True:
         break
 s.close()
 print(resposta.decode('iso-8859-1'))
-input()
+time.sleep(9999)
+
