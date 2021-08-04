@@ -33,7 +33,10 @@ print(r"""**********************************************************************
             Verifique as regras sintáticas para nomes de domínio em Dicas 
                      e regras para o registro de um domínio. 
                   
-    IP ou bloco CIDR: digite um número IP (200.200.200.200) ou um bloco CIDR (200.200/16).          """)
+    IP ou bloco CIDR: digite um número IP (200.200.200.200) ou um bloco CIDR (200.200/16).
+                                                                                                    
+                             exemplo de uso python3 whois.py 
+                                                                                                    """)
 print("\n*********************************************************************************************")
 
 import socket
